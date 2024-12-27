@@ -27,8 +27,6 @@ public class WordSearch {
             me.wordSearch(word);
             me.printSolution();
         }
-//        me.wordSearch("elephant");
-//        me.wordSearch("monkey");
         System.out.println("Final solution");
         me.printSolution();
 
