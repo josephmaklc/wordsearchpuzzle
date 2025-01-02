@@ -237,7 +237,7 @@ public class WordSearch {
                 r = row;
                 c = col;
                 i = 0;
-                while (r < MAX && c > 0 && i < text.length() && puzzle[r][c] == text.charAt(i)) {
+                while (r < MAX && c >= 0 && i < text.length() && puzzle[r][c] == text.charAt(i)) {
                     r++;
                     c--;
                     i++;
